@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Reminder</title>
+</head>
+
+<body id="main" data-theme="dark">
+    <div class="button">
+        <div class="ball" id="ballTheme"></div>
+    </div>
+    <section class="all" id="all">
+        <h1>reminder</h1>
+        <div class="function">
+            <input type="text" name="todo" id="todo" maxlength="100" placeholder="Adicionar tarefa" autocomplete="off">
+            <button class="create" id="sendTask"><img src="/src/image/enter.png" alt="Enter"></button>
+        </div>
+        <section id="todoList">
+            <div id="restore"></div>
+        </section>
+    </section>
+    <div class="clearAll" id="clearAll">
+        <div class="clearAllText">Apagar tudo</div>
+    </div>
+    <footer>Developed by <a href="https://www.linkedin.com/in/ogabrielviana/"> Gabriel Viana</a></footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+
+</html>
